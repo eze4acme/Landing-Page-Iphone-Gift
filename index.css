@@ -1,3 +1,47 @@
 body{
     /* background-color: red; */
+    margin: 0;
+    font-family: 'San Francisco';
+}
+img{
+    max-width:550px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container{
+    max-width: 1200px;
+    /* height: 100vh; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    /* background-color: blue; */
+    gap: 40px;
+}
+.text-section{
+     /* margin-top: -60px; */
+    /* background-color: red; */
+}
+.title{
+    text-transform: uppercase;
+    color: #1A6AA2;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    text-shadow: 0 0 0.3px black;
+    margin-bottom: 8px;
+}
+.sub_title{
+    margin-top: 0;
+    letter-spacing: 3px;
+     text-transform: capitalize;
+     font-size: 1.2rem;
+}
+.text{
+    letter-spacing: 2px;
+    margin-top: 40px;
+    line-height: 25px;
+    text-shadow: 0 0 0.3px black;
+    color: rgb(114, 104, 104);
 }
