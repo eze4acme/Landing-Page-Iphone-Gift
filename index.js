@@ -14,4 +14,13 @@ console.log(daysOfWeek[dayOfWeek]);
 console.log(months[month]);
 console.log(new Date().getDate());
 console.log(new Date().getFullYear());
-console.log(new Date());
+
+console.log( Math.floor((new Date().getTime() % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+console.log( Math.floor((new Date().getTime() % (1000 * 60 * 60)) / (1000 * 60 )));
+
+
+console.log(new Date().getTime());
+const hours = new Date().getHours();
+const mins = new Date().getMinutes() 
+console.log(mins);
+console.log(hours);
