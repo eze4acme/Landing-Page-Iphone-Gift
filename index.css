@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "San Francisco";
   box-sizing: border-box;
-  background: linear-gradient(to right, #c58651, #d0a492);
+  background: linear-gradient(to right, #c58651, #c49a89);
 }
 img {
   max-height: 400px;
